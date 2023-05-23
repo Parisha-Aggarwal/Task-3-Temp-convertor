@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="task-3.css">
+</head>
+<body>
+    <h1 class="heading">TEMPERATURE CONVERSION APP</h1>
+    <div class="form">
+    <div class="maincontainer">
+        <input type="number" placeholder="Enter temperatures" id="input">
+
+        <select name="degree" id="degree" >
+        <option value="">Choose Unit</option>
+        <option value="Fahrenhite">Fahrenhite</option>
+        <option value="Celcius">Celcius</option>
+        </select>
+
+        <div class="container2">
+            <input type="button" onclick="convert()" id="button" value="Convert">
+        </div>
+
+        <h2>Result</h2>
+        <input type="text" placeholder="Converted" id="output" readonly/>
+        </div>
+    </div>
+    <script src="task-3.js"></script>
+</body>
+</html>
